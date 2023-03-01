@@ -15,6 +15,7 @@ echo "Muito prazer $nome $sobrenome e tem " . idade . "! <p> Você mora no " . P
 
 echo "<p>$nomeCompletoCliente  $telefonte_contato_fornecedor";
 
+//Tipos Primitivos
 
 // 0x = hexadecimal 
 // 0b = binário 0 = Octal
