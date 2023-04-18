@@ -8,19 +8,28 @@
 </head>
 <body>
     <?php
-    //OREDEM DE PRECEDÊNCIA  ---- muda a ordem se tiver ()
+    //OREDEM DE PRECEDÊNCIA  ---- muda a ordem se tiver ( )
     // **
     // *  /  %
     // +  -
-    $resposta2 = "2" . "2"; //operador string concatenação
-    $resposta = "2" + "2";
+    $resposta = "2" . "2"; //operador string concatenação
+    $resposta2 = "2" + "2";
     $res = 50 / 2 + 3 ** 2;
+    
+
+    $div = intdiv(5,2);
+    $max = max(10, 3, 5, 3, 13 ,8);
+    $min = min(2, 5, 6, 12);
+    $potencia = pow(12, 2);
+    $raiz = sqrt(10);
+    $raizCubica = pow($max, 1/3);
+
     
     var_dump($resposta);
     var_dump($resposta2);
 
     echo "<p> $resposta </p>";
-    echo "<p> $res </p>"
+    echo "<p> $raizCubica </p>"
     
     ?>
     

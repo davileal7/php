@@ -11,16 +11,15 @@
         <?php 
         echo "Olá mundo! \u{1F30D}"
         ?>
-        <?php 
-        print "Olá PHP \u{1F418}"
-        ?>
     </h1>
     <p>
-        <?php echo "Por que Elefante é o mascote de PHP?"  ?>
+        <?php
+        print "Olá PHP \u{1F418}"
+        ?>
     </p>
-    <p>
-        <?php echo "O logo do php é uma mascote e chama-se 'ElePHPant'. Foi criado por Vincent Pontier, em um determinado ângulo da letra ele via um elefante."?>
-    </p>
+
+    
+
    
       
 </body>
